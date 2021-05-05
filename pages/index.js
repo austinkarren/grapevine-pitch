@@ -91,6 +91,61 @@ export default function Home() {
             </div>  
           </div>
         </div>
+
+        <div className={styles.footer}>
+          <div className={styles.bottomDeck}>
+            <div className={styles.bottomCard}>
+              <div className={styles.picContainer}>
+                <Image
+                  className={styles.logoPic}
+                  src="/images/mingslogo.svg"
+                  height={180}
+                  width={126}
+                ></Image>
+              </div>  
+              <div className={styles.textContainer}>
+                <p>EVENTS | MAY 05 2021</p>
+                <h1 className={styles.h1}>LEARN BASIC BING PREP</h1>
+                <button className={styles.button}>REGISTER</button>
+              </div>
+            </div>
+            <div className={styles.bottomCard}>
+              <div className={styles.picContainer}>
+                <Image
+                  className={styles.logoPic}
+                  src="/images/mingslogo.svg"
+                  height={180}
+                  width={126}
+                ></Image>
+              </div>  
+
+              <div className={styles.textContainer}>
+                  <p>EVENTS | MAY 05 2021</p>
+                  <h1 className={styles.h1}>LEARN BASIC BING PREP</h1>
+                  <button className={styles.button}>REGISTER</button>
+              </div>
+            </div>
+            <div className={styles.bottomLast}>
+            <div className={styles.picContainer}>
+                <Image
+                  className={styles.logoPic}
+                  src="/images/mingslogo.svg"
+                  height={180}
+                  width={126}
+                ></Image>
+              </div>  
+
+              <div className={styles.textContainer}>
+                  <p>EVENTS | MAY 05 2021</p>
+                  <h1 className={styles.h1}>LEARN BASIC BING PREP</h1>
+                  <button className={styles.button}>REGISTER</button>
+              </div>
+
+            </div>
+          </div>
+          
+        </div>
+
       </div>
     </>
   )
