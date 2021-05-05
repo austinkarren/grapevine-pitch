@@ -85,7 +85,7 @@
 }
 .bottomDeck {
   width: 100%;
-  min-height: 161px;
+  max-height: 161px;
   display: flex;
   flex-direction: row;
   background-color: #e4edf8 ;
@@ -102,6 +102,9 @@
   padding-left: 30px;
   width: 33%;
   display: flex;
+}
 
+.bottomChefPic {
+  padding-bottom: 50px;
 }
 

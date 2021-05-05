@@ -97,10 +97,10 @@ export default function Home() {
             <div className={styles.bottomCard}>
               <div className={styles.picContainer}>
                 <Image
-                  className={styles.logoPic}
-                  src="/images/mingslogo.svg"
-                  height={180}
-                  width={126}
+                  className={styles.bottomChefPic}
+                  src="/images/ming.png"
+                  height={253}
+                  width={228}
                 ></Image>
               </div>  
               <div className={styles.textContainer}>
@@ -113,7 +113,7 @@ export default function Home() {
               <div className={styles.picContainer}>
                 <Image
                   className={styles.logoPic}
-                  src="/images/mingslogo.svg"
+                  src="/images/bings.png"
                   height={180}
                   width={126}
                 ></Image>
@@ -129,12 +129,11 @@ export default function Home() {
             <div className={styles.picContainer}>
                 <Image
                   className={styles.logoPic}
-                  src="/images/mingslogo.svg"
+                  src="/images/knives.png"
                   height={180}
-                  width={126}
+                  width={180}
                 ></Image>
               </div>  
-
               <div className={styles.textContainer}>
                   <p>EVENTS | MAY 05 2021</p>
                   <h1 className={styles.h1}>LEARN BASIC BING PREP</h1>
