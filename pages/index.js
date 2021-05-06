@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import globalStyles from '../styles/Home.module.css'
-import Nav from '../components/nav'
 import Header from '../components/header'
 
 export default function Home() {
@@ -15,16 +14,6 @@ export default function Home() {
 
       <Header></Header>
 
-
-      {/* <div className={globalStyles.topBar}>
-        <div className={globalStyles.topBarCentered}>
-          <h2 className={globalStyles.h2}>40% SALE ON SELECT FEATURED FOOD ITEMS*</h2>
-        </div>  
-      </div>
-
-      <header className={globalStyles.header}>
-        <Nav></Nav>
-      </header> */}
       
       <div className={globalStyles.container}>
 

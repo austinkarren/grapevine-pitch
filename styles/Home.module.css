@@ -2,31 +2,9 @@
   display: grid;
   grid-template-columns: repeat(24, 1fr); 
   grid-template-rows: repeat(24, 1fr);
-  padding: 44px;
+  padding: 44px 90px 44px 90px;
+
 }
-/* .header {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.topBar{
-  min-height: 55px;
-  width: 100%;
-  background-color: #6c8cf5;
-  color: white;
-  position: relative;
-}
-.topBarCentered {
-  margin-left: 35%;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);  
-}
-.h2{
-  text-align: center;
-} */
 .heroText {
   grid-column-start: 2;
   grid-column-end: 7;

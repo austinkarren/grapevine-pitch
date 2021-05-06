@@ -13,17 +13,18 @@ export default function Navbar () {
 
             <div className={headerStyles.navbar}>
                 <div className={headerStyles.navOne}>
-                    <a className={headerStyles.a} href="#home">Shops</a>
-                    <a className={headerStyles.a} href="#news">Recipes</a>
+                    <Link href="https://www.grapevineshops.com/"><a className={headerStyles.a} >Shops</a></Link>
+                    <Link href="pages/posts/recipes"><a className={headerStyles.a} href="#news">Recipes</a></Link>
                     <a className={headerStyles.a} href="#home">Articles</a>
                     <a className={headerStyles.a} href="#news">Podcasts</a>
-                    </div>
-                <div>
+                </div>
+                <div className={headerStyles.imageWrap}>
                     <Image
-                        src="/images/gv.svg"
+                        className={headerStyles.image}
+                        src="/images/gvslogo.svg"
                         height={102}
                         width={440}
-                        ></Image>
+                    ></Image>
                 </div>
                 <div className={headerStyles.navTwo}>
                     <a className={headerStyles.a} href="#home">Magazines</a>
