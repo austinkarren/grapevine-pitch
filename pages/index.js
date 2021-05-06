@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import globalStyles from '../styles/Home.module.css'
 import Nav from '../components/nav'
+import Header from '../components/header'
 
 export default function Home() {
   return (
@@ -12,31 +13,33 @@ export default function Home() {
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
 
+      <Header></Header>
 
-      <div className={styles.topBar}>
-        <div className={styles.topBarCentered}>
-          <h2 className={styles.h2}>40% SALE ON SELECT FEATURED FOOD ITEMS*</h2>
+
+      {/* <div className={globalStyles.topBar}>
+        <div className={globalStyles.topBarCentered}>
+          <h2 className={globalStyles.h2}>40% SALE ON SELECT FEATURED FOOD ITEMS*</h2>
         </div>  
       </div>
 
-      <header className={styles.header}>
+      <header className={globalStyles.header}>
         <Nav></Nav>
-      </header>
+      </header> */}
       
-      <div className={styles.container}>
+      <div className={globalStyles.container}>
 
 
-        <div className={styles.heroText}>
-          <div className={styles.heroHeading}>
+        <div className={globalStyles.heroText}>
+          <div className={globalStyles.heroHeading}>
             <h1>MEET MINGSBINGS <br></br>CHEF MING TSAI</h1>
           </div>
-          <div className={styles.heroBody}>
+          <div className={globalStyles.heroBody}>
             <p>Ming Tsai is a chef, restauranteur, cookbook author, James Beard award winner, Emmy Award winner, and host of the longest-running cooking show on PBS, now in its 17th season. </p>
             <p>As a culinary and cultural pioneer of East meets West cuisine, he’s led the way for a creative, thoughtful, and delicious blending of flavors, temperatures, and textures while trailblazing a path for generations.
             </p>
           </div>   
         </div>
-        <div className={styles.heroImage}>
+        <div className={globalStyles.heroImage}>
           <Image
             src="/images/veggies.png"
             height={542}
@@ -44,46 +47,46 @@ export default function Home() {
           ></Image>
         </div>
 
-        <div className={styles.cardDeck}>
-          <div className={styles.cardOne}>
-            <div className={styles.textContainer}>
+        <div className={globalStyles.cardDeck}>
+          <div className={globalStyles.cardOne}>
+            <div className={globalStyles.textContainer}>
               <p>EVENTS | MAY 05 2021</p>
-              <h1 className={styles.h1}>LEARN BASIC BING PREP</h1>
-              <button className={styles.button}>REGISTER</button>
+              <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
+              <button className={globalStyles.button}>REGISTER</button>
             </div>
-            <div className={styles.picContainer}>
+            <div className={globalStyles.picContainer}>
             <Image
-              className={styles.logoPic}
+              className={globalStyles.logoPic}
               src="/images/mingslogo.svg"
               height={180}
               width={126}
             ></Image>
             </div>  
           </div>
-          <div className={styles.cardOne}>
-            <div className={styles.textContainer}>
+          <div className={globalStyles.cardOne}>
+            <div className={globalStyles.textContainer}>
               <p>EVENTS | MAY 05 2021</p>
-              <h1 className={styles.h1}>LEARN BASIC BING PREP</h1>
-              <button className={styles.button}>REGISTER</button>
+              <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
+              <button className={globalStyles.button}>REGISTER</button>
             </div>
-            <div className={styles.picContainerTwo}>
+            <div className={globalStyles.picContainerTwo}>
             <Image
-              className={styles.chefPic}
+              className={globalStyles.chefPic}
               src="/images/chef.png"
               height={180}
               width={170}
             ></Image>
             </div>  
           </div>
-          <div className={styles.cardOne}>
-            <div className={styles.textContainer}>
+          <div className={globalStyles.cardOne}>
+            <div className={globalStyles.textContainer}>
               <p>EVENTS | MAY 05 2021</p>
-              <h1 className={styles.h1}>LEARN BASIC BING PREP</h1>
-              <button className={styles.button}>REGISTER</button>
+              <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
+              <button className={globalStyles.button}>REGISTER</button>
             </div>
-            <div className={styles.picContainerThree}>
+            <div className={globalStyles.picContainerThree}>
             <Image
-              className={styles.chefPic}
+              className={globalStyles.chefPic}
               src="/images/sandwich.png"
               height={140}
               width={126}
@@ -92,51 +95,51 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={styles.footer}>
-          <div className={styles.bottomDeck}>
-            <div className={styles.bottomCardOne}>
-              <div className={styles.bottomPicContainerOne}>
+        <div className={globalStyles.footer}>
+          <div className={globalStyles.bottomDeck}>
+            <div className={globalStyles.bottomCardOne}>
+              <div className={globalStyles.bottomPicContainerOne}>
                 <img
-                  className={styles.bottomPic}
+                  className={globalStyles.bottomPic}
                   src="/images/ming.png"
                   height={253}
                   width={228}
                 ></img>
               </div>  
-              <div className={styles.textContainer}>
+              <div className={globalStyles.textContainer}>
                 <p>EVENTS | MAY 05 2021</p>
-                <h1 className={styles.h1}>LEARN BASIC BING PREP</h1>
-                <button className={styles.button}>REGISTER</button>
+                <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
+                <button className={globalStyles.button}>REGISTER</button>
               </div>
             </div>
-            <div className={styles.bottomCardTwo}>
-              <div className={styles.bottomPicContainerTwo}>
+            <div className={globalStyles.bottomCardTwo}>
+              <div className={globalStyles.bottomPicContainerTwo}>
                 <img
-                  className={styles.bottomPicTwo}
+                  className={globalStyles.bottomPicTwo}
                   src="/images/bings.png"
                   height={174}
                   width={164}
                 ></img>
               </div>  
-              <div className={styles.textContainer}>
+              <div className={globalStyles.textContainer}>
                   <p>EVENTS | MAY 05 2021</p>
-                  <h1 className={styles.h1}>LEARN BASIC BING PREP</h1>
-                  <button className={styles.button}>REGISTER</button>
+                  <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
+                  <button className={globalStyles.button}>REGISTER</button>
               </div>
             </div>
-            <div className={styles.bottomCardThree}>
-            <div className={styles.bottomPicContainerThree}>
+            <div className={globalStyles.bottomCardThree}>
+            <div className={globalStyles.bottomPicContainerThree}>
                 <img
-                  className={styles.bottomPicThree}
+                  className={globalStyles.bottomPicThree}
                   src="/images/knives.png"
                   height={191}
                   width={167}
                 ></img>
               </div>  
-              <div className={styles.textContainer}>
+              <div className={globalStyles.textContainer}>
                   <p>EVENTS | MAY 05 2021</p>
-                  <h1 className={styles.h1}>LEARN BASIC BING PREP</h1>
-                  <button className={styles.button}>REGISTER</button>
+                  <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
+                  <button className={globalStyles.button}>REGISTER</button>
               </div>
 
             </div>

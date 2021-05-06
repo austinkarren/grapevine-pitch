@@ -1,3 +1,23 @@
+/* TOP BANNER ABOVE NAV */
+.topBar{
+  min-height: 55px;
+  width: 100%;
+  background-color: #6c8cf5;
+  color: white;
+  position: relative;
+}
+.topBarCentered {
+  margin-left: 35%;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);  
+}
+.h2{
+  text-align: center;
+}
+
+
 /* NAVIGATION BAR */
 .navbar {
   overflow: hidden;
@@ -23,23 +43,5 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-/* TOP BANNER ABOVE NAV */
-.topBar{
-  min-height: 55px;
-  width: 100%;
-  background-color: #6c8cf5;
-  color: white;
-  position: relative;
-}
-.topBarCentered {
-  margin-left: 35%;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);  
-}
-.h2{
-  text-align: center;
 }
 

@@ -1,16 +1,16 @@
 import Image from 'next/image'
-import styles from './nav.module.css'
-
+import navStyles from './nav.module.css'
+import Link from 'next/link'
 
 export default function Navbar () {
     return (
         <>
-            <div className={styles.navbar}>
-                <div className={styles.navOne}>
-                    <a className={styles.a} href="#home">Shops</a>
-                    <a className={styles.a} href="#news">Recipes</a>
-                    <a className={styles.a} href="#home">Articles</a>
-                    <a className={styles.a} href="#news">Podcasts</a>
+            <div className={navStyles.navbar}>
+                <div className={navStyles.navOne}>
+                    <a className={navStyles.a} href="#home">Shops</a>
+                    <a className={navStyles.a} href="#news">Recipes</a>
+                    <a className={navStyles.a} href="#home">Articles</a>
+                    <a className={navStyles.a} href="#news">Podcasts</a>
                     </div>
                 <div>
                     <Image
@@ -19,11 +19,11 @@ export default function Navbar () {
                         width={440}
                         ></Image>
                 </div>
-                <div className={styles.navTwo}>
-                    <a className={styles.a} href="#home">Magazines</a>
-                    <a className={styles.a} href="#news">Events</a>
-                    <a className={styles.a} href="#home">Creators</a>
-                    <a className={styles.a} href="#news">Brands</a>
+                <div className={navStyles.navTwo}>
+                    <a className={navStyles.a} href="#home">Magazines</a>
+                    <a className={navStyles.a} href="#news">Events</a>
+                    <a className={navStyles.a} href="#home">Creators</a>
+                    <a className={navStyles.a} href="#news">Brands</a>
                 </div>
             </div>
 
