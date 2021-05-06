@@ -81,8 +81,9 @@
   grid-column-start: 1 ;
   grid-column-end: 25;
   grid-row-start: 10;
-  grid-row-end: 15 ;  
+  grid-row-end: 14 ;  
 }
+
 .bottomDeck {
   width: 100%;
   max-height: 161px;
@@ -91,20 +92,61 @@
   background-color: #e4edf8 ;
   margin-top: 45px;
   border-top: 5px solid #b9d7ff;
+  position: absolute;
 }
 .bottomCard {
   padding-left: 30px;
   width: 33%;
   border-right: 1px solid #b9d7ff;
   display: flex;
+  position: relative;
 }
+
 .bottomLast {
   padding-left: 30px;
   width: 33%;
   display: flex;
+  position: relative;
 }
-
-.bottomChefPic {
-  padding-bottom: 50px;
+.bottomCardOne {
+  padding-left: 30px;
+  width: 33%;
+  border-right: 1px solid #b9d7ff;
+  display: flex;
+  position: relative;
 }
-
+.bottomCardTwo {
+  padding-left: 30px;
+  width: 33%;
+  border-right: 1px solid #b9d7ff;
+  display: flex;
+  position: relative;
+}
+.bottomCardThree {
+  padding-left: 30px;
+  width: 33%;
+  border-right: 1px solid #b9d7ff;
+  display: flex;
+  position: relative;
+}
+.bottomPicContainerOne {
+  position: relative;
+}
+.bottomPicContainerTwo {
+  position: relative;
+}
+.bottomPicContainerThree {
+  position: relative;
+}
+.bottomPic {
+  position: relative;
+  bottom: 100px;
+}
+.bottomPicTwo {
+  position: relative;
+  bottom: 25px;
+}
+.bottomPicThree {
+  position: relative;
+  bottom: 37px;
+}

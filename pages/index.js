@@ -94,14 +94,14 @@ export default function Home() {
 
         <div className={styles.footer}>
           <div className={styles.bottomDeck}>
-            <div className={styles.bottomCard}>
-              <div className={styles.picContainer}>
-                <Image
-                  className={styles.bottomChefPic}
+            <div className={styles.bottomCardOne}>
+              <div className={styles.bottomPicContainerOne}>
+                <img
+                  className={styles.bottomPic}
                   src="/images/ming.png"
                   height={253}
                   width={228}
-                ></Image>
+                ></img>
               </div>  
               <div className={styles.textContainer}>
                 <p>EVENTS | MAY 05 2021</p>
@@ -109,30 +109,29 @@ export default function Home() {
                 <button className={styles.button}>REGISTER</button>
               </div>
             </div>
-            <div className={styles.bottomCard}>
-              <div className={styles.picContainer}>
-                <Image
-                  className={styles.logoPic}
+            <div className={styles.bottomCardTwo}>
+              <div className={styles.bottomPicContainerTwo}>
+                <img
+                  className={styles.bottomPicTwo}
                   src="/images/bings.png"
-                  height={180}
-                  width={126}
-                ></Image>
+                  height={174}
+                  width={164}
+                ></img>
               </div>  
-
               <div className={styles.textContainer}>
                   <p>EVENTS | MAY 05 2021</p>
                   <h1 className={styles.h1}>LEARN BASIC BING PREP</h1>
                   <button className={styles.button}>REGISTER</button>
               </div>
             </div>
-            <div className={styles.bottomLast}>
-            <div className={styles.picContainer}>
-                <Image
-                  className={styles.logoPic}
+            <div className={styles.bottomCardThree}>
+            <div className={styles.bottomPicContainerThree}>
+                <img
+                  className={styles.bottomPicThree}
                   src="/images/knives.png"
-                  height={180}
-                  width={180}
-                ></Image>
+                  height={191}
+                  width={167}
+                ></img>
               </div>  
               <div className={styles.textContainer}>
                   <p>EVENTS | MAY 05 2021</p>
