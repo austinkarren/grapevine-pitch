@@ -43,7 +43,7 @@ export default function Home() {
               <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
               <button className={globalStyles.button}>REGISTER</button>
             </div>
-            <div className={globalStyles.picContainer}>
+            <div >
             <Image
               className={globalStyles.logoPic}
               src="/images/mingslogo.svg"
@@ -86,10 +86,11 @@ export default function Home() {
 
         <div className={globalStyles.footer}>
           <div className={globalStyles.bottomDeck}>
+
             <div className={globalStyles.bottomCardOne}>
-              <div className={globalStyles.bottomPicContainerOne}>
+              <div className={globalStyles.picContainer}>
                 <img
-                  className={globalStyles.bottomPic}
+                  className={globalStyles.bottomPicOne}
                   src="/images/ming.png"
                   height={253}
                   width={228}
@@ -101,8 +102,9 @@ export default function Home() {
                 <button className={globalStyles.button}>REGISTER</button>
               </div>
             </div>
+
             <div className={globalStyles.bottomCardTwo}>
-              <div className={globalStyles.bottomPicContainerTwo}>
+              <div className={globalStyles.picContainer}>
                 <img
                   className={globalStyles.bottomPicTwo}
                   src="/images/bings.png"
@@ -116,21 +118,21 @@ export default function Home() {
                   <button className={globalStyles.button}>REGISTER</button>
               </div>
             </div>
+
             <div className={globalStyles.bottomCardThree}>
-            <div className={globalStyles.bottomPicContainerThree}>
-                <img
-                  className={globalStyles.bottomPicThree}
-                  src="/images/knives.png"
-                  height={191}
-                  width={167}
-                ></img>
+              <div className={globalStyles.picContainer}>
+                  <img
+                    className={globalStyles.bottomPicThree}
+                    src="/images/knives.png"
+                    height={191}
+                    width={167}
+                  ></img>
               </div>  
               <div className={globalStyles.textContainer}>
                   <p>EVENTS | MAY 05 2021</p>
                   <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
                   <button className={globalStyles.button}>REGISTER</button>
               </div>
-
             </div>
           </div>
           

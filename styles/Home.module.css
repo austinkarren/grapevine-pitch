@@ -63,7 +63,7 @@
 }
 
 .bottomDeck {
-  width: 100%;
+  width: 87%;
   max-height: 161px;
   display: flex;
   flex-direction: row;
@@ -72,20 +72,7 @@
   border-top: 5px solid #b9d7ff;
   position: absolute;
 }
-.bottomCard {
-  padding-left: 30px;
-  width: 33%;
-  border-right: 1px solid #b9d7ff;
-  display: flex;
-  position: relative;
-}
 
-.bottomLast {
-  padding-left: 30px;
-  width: 33%;
-  display: flex;
-  position: relative;
-}
 .bottomCardOne {
   padding-left: 30px;
   width: 33%;
@@ -103,20 +90,15 @@
 .bottomCardThree {
   padding-left: 30px;
   width: 33%;
-  border-right: 1px solid #b9d7ff;
   display: flex;
   position: relative;
 }
-.bottomPicContainerOne {
+.picContainer{
   position: relative;
+  width: 25%;
+  margin-right: 100px; 
 }
-.bottomPicContainerTwo {
-  position: relative;
-}
-.bottomPicContainerThree {
-  position: relative;
-}
-.bottomPic {
+.bottomPicOne {
   position: relative;
   bottom: 100px;
 }
