@@ -14,9 +14,9 @@ export default function Navbar () {
             <div className={headerStyles.navbar}>
                 <div className={headerStyles.navOne}>
                     <Link href="https://www.grapevineshops.com/"><a className={headerStyles.a} >Shops</a></Link>
-                    <Link href="pages/posts/recipes"><a className={headerStyles.a} href="#news">Recipes</a></Link>
-                    <a className={headerStyles.a} href="#home">Articles</a>
-                    <a className={headerStyles.a} href="#news">Podcasts</a>
+                    <Link href="/posts/recipes"><a className={headerStyles.a}>Recipes</a></Link>
+                    <Link href="/posts/articles"><a className={headerStyles.a}>Articles</a></Link>
+                    <Link href="/posts/podcasts"><a className={headerStyles.a}>Podcasts</a></Link>
                 </div>
                 <div className={headerStyles.imageWrap}>
                     <Image
@@ -27,10 +27,10 @@ export default function Navbar () {
                     ></Image>
                 </div>
                 <div className={headerStyles.navTwo}>
-                    <a className={headerStyles.a} href="#home">Magazines</a>
-                    <a className={headerStyles.a} href="#news">Events</a>
-                    <a className={headerStyles.a} href="#home">Creators</a>
-                    <a className={headerStyles.a} href="#news">Brands</a>
+                    <Link href="/posts/magazines"><a className={headerStyles.a}>Magazines</a></Link>
+                    <Link href="/posts/events"><a className={headerStyles.a}>Events</a></Link>
+                    <Link href="/posts/creators"><a className={headerStyles.a}>Creators</a></Link>
+                    <Link href="/posts/brands"><a className={headerStyles.a}>Brands</a></Link>
                 </div>
             </div>
 

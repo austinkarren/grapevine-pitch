@@ -1,6 +1,6 @@
 import Header from '../../components/header'
 
-export default function recipesPage() {
+export default function articlesPage() {
     return (
         <Header></Header>
     )
