@@ -38,8 +38,9 @@
   display:flex;
   flex-direction: column;
   position:relative;
-  width: 25%;
+  width: 20%;
   margin-left: 5%;
+  
 }
 .card {
   display: flex;
@@ -51,20 +52,14 @@
   background-color: #e4edf8;
   position:relative;
 }
-.textContainer {
-  display: flex;
-  flex-direction: column;
-  width: 75%;
-  min-height: 95%;
-  margin-right: 10%
-}
 .tPicContainerOne{
   display:flex;
   width: 20%;
   min-height: 95%;
   position:relative;
-  top: 58%;
-  left: 5%
+  top: 52%;
+  right: 3%;
+  
   
 }
 .tPicContainerTwo{
@@ -73,6 +68,7 @@
   min-height: 95%;
   position:relative;
   top: 20%;
+  right: 5%;
   
 }
 .tPicContainerThree{
@@ -80,11 +76,25 @@
   width: 20%;
   min-height: 95%;
   position:relative;
-  top: 55%
+  top: 52%;
+  right: 5%
   
 }
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  min-height: 95%;
+  max-height: 95%;
+  margin-right: 15%;
+  margin-left: 5%;
+}
+
 .textContainer .h1 {
   font-size: 20px;
+}
+.textContainer .p {
+  font-size: 15px;
 }
 .textContainer .button {
   background-color: #2c2724;
@@ -104,7 +114,7 @@
 }
 /* BOTTOM CARD DECK */
 .bottomDeck {
-  width: 87%;
+  width: 100%;
   max-height: 161px;
   display: flex;
   flex-direction: row;
@@ -114,29 +124,18 @@
   position: absolute;
 }
 .bottomCard {
-  padding-left: 30px;
-  width: 33%;
-  border-right: 1px solid #b9d7ff;
   display: flex;
-  position: relative;
-}
-.bottomCardTwo {
-  padding-left: 30px;
+  flex-direction: row;
+  margin-bottom: 16px;
+  padding: 8px 15px 8px 20px;
+  background-color: #e4edf8;
+  position:relative;
+  border-right:3px solid #b9d7ff;
   width: 33%;
-  border-right: 1px solid #b9d7ff;
-  display: flex;
-  position: relative;
-}
-.bottomCardThree {
-  padding-left: 30px;
-  width: 33%;
-  display: flex;
-  position: relative;
+
 }
 .picContainer{
-  position: relative;
   width: 25%;
-  margin-right: 100px; 
 }
 .bottomPicOne {
   position: relative;
@@ -144,9 +143,28 @@
 }
 .bottomPicTwo {
   position: relative;
-  bottom: 25px;
+  bottom: 35px;
 }
 .bottomPicThree {
   position: relative;
-  bottom: 37px;
+  bottom: 41px;
 }
+.bTextContainer {
+  width: 60%;
+  margin-left: 15%;
+}
+.bTextContainer .p {
+  font-size: 15px;
+}
+.bTextContainer .h1 {
+  font-size: 20px;
+}
+.bTextContainer .button {
+  background-color: #2c2724;
+  color: rgb(233, 233, 233);
+  min-width: 133px;
+  min-height: 29px;
+  font-size: 10px;
+  border: none;
+}
+

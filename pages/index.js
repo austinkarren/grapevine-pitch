@@ -23,7 +23,7 @@ export default function Home() {
               <h1>MEET MINGSBINGS <br></br>CHEF MING TSAI</h1>
             </div>
             <div className={globalStyles.heroBody}>
-              <p>Ming Tsai is a chef, restaurateur, cookbook author, James Beard award winner, Emmy Award winner, and host of the longest-running cooking show on PBS, now in its 17th season. </p>
+              <p className={globalStyles.p}>Ming Tsai is a chef, restaurateur, cookbook author, James Beard award winner, Emmy Award winner, and host of the longest-running cooking show on PBS, now in its 17th season. </p>
               <p>As a culinary and cultural pioneer of East meets West cuisine, he’s led the way for a creative, thoughtful, and delicious blending of flavors, temperatures, and textures while trailblazing a path for generations.
               </p>
             </div>   
@@ -31,8 +31,8 @@ export default function Home() {
           <div className={globalStyles.heroImage}>
             <Image
               src="/images/veggies.png"
-              height={542}
-              width= {668}
+              height={547}
+              width= {673}
             ></Image>
           </div>
           {/* RIGHT SIDE CARD DECK */}
@@ -40,8 +40,8 @@ export default function Home() {
             {/* CARD 1 */}
             <div className={globalStyles.card}>
               <div className={globalStyles.textContainer}>
-                <p>EVENTS | MAY 05 2021</p>
-                <h1 className={globalStyles.h1}>LEARN BASIC BING <br></br>PREP TODAY</h1>
+                <p className={globalStyles.p}>EVENTS | MAY 05 2021</p>
+                <h1 className={globalStyles.h1}>LEARN BASIC BING PREP TODAY</h1>
                 <button className={globalStyles.button}>REGISTER</button>
               </div>
               <div className={globalStyles.tPicContainerOne}>
@@ -56,7 +56,7 @@ export default function Home() {
             {/* CARD 2 */}
             <div className={globalStyles.card}>
               <div className={globalStyles.textContainer}>
-                <p>EVENTS | MAY 05 2021</p>
+                <p className={globalStyles.p}>EVENTS | MAY 05 2021</p>
                 <h1 className={globalStyles.h1}>COOKING WITH <br></br>CHEF MING</h1>
                 <button className={globalStyles.button}>REGISTER</button>
               </div>
@@ -72,7 +72,7 @@ export default function Home() {
             {/* CARD 3 */}
             <div className={globalStyles.card}>
               <div className={globalStyles.textContainer}>
-                <p>EVENTS | MAY 05 2021</p>
+                <p className={globalStyles.p}>EVENTS | MAY 05 2021</p>
                 <h1 className={globalStyles.h1}>COOKING WITH<br></br> OUR FOUNDERS</h1>
                 <button className={globalStyles.button}>REGISTER</button>
               </div>
@@ -91,7 +91,7 @@ export default function Home() {
           <div className={globalStyles.footer}>
             <div className={globalStyles.bottomDeck}>
               {/* B-CARD 1 */}
-              <div className={globalStyles.bottomCardOne}>
+              <div className={globalStyles.bottomCard}>
                 <div className={globalStyles.picContainer}>
                   <img
                     className={globalStyles.bottomPicOne}
@@ -100,14 +100,14 @@ export default function Home() {
                     width={228}
                   ></img>
                 </div>  
-                <div className={globalStyles.textContainer}>
-                  <p>EVENTS | MAY 05 2021</p>
+                <div className={globalStyles.bTextContainer}>
+                  <p className={globalStyles.p}>EVENTS | MAY 05 2021</p>
                   <h1 className={globalStyles.h1}>THIS CHEF'S ON HIS OWN MISSION</h1>
                   <button className={globalStyles.button}>READ ARTICLE</button>
                 </div>
               </div>
               {/* B-CARD 2 */}
-              <div className={globalStyles.bottomCardTwo}>
+              <div className={globalStyles.bottomCard}>
                 <div className={globalStyles.picContainer}>
                   <img
                     className={globalStyles.bottomPicTwo}
@@ -116,14 +116,14 @@ export default function Home() {
                     width={164}
                   ></img>
                 </div>  
-                <div className={globalStyles.textContainer}>
-                    <p>EVENTS | MAY 05 2021</p>
+                <div className={globalStyles.bTextContainer}>
+                    <p className={globalStyles.p}>EVENTS | MAY 05 2021</p>
                     <h1 className={globalStyles.h1}>LEARN BASIC BING PREP TODAY</h1>
                     <button className={globalStyles.button}>READ RECIPE</button>
                 </div>
               </div>
               {/* B-CARD 3 */}
-              <div className={globalStyles.bottomCardThree}>
+              <div className={globalStyles.bottomCard}>
                 <div className={globalStyles.picContainer}>
                     <img
                       className={globalStyles.bottomPicThree}
@@ -132,8 +132,8 @@ export default function Home() {
                       width={167}
                     ></img>
                 </div>  
-                <div className={globalStyles.textContainer}>
-                    <p>EVENTS | MAY 05 2021</p>
+                <div className={globalStyles.bTextContainer}>
+                    <p className={globalStyles.p}>EVENTS | MAY 05 2021</p>
                     <h1 className={globalStyles.h1}>HIGH QUALITY TRADITION</h1>
                     <button className={globalStyles.button}>READ ARTICLE</button>
                 </div>
