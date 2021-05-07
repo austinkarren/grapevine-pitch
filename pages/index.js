@@ -41,16 +41,16 @@ export default function Home() {
             <div className={globalStyles.card}>
               <div className={globalStyles.textContainer}>
                 <p className={globalStyles.p}><span className={globalStyles.eventP}>EVENTS</span> | MAY 05 2021</p>
-                <h1 className={globalStyles.h1}>LEARN BASIC BING PREP TODAY</h1>
+                <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
                 <button className={globalStyles.button}>REGISTER</button>
               </div>
-              <div className={globalStyles.tPicContainerOne}>
-                <img
+              <div className={globalStyles.tPicContainer}>
+                <Image
                   className={globalStyles.tPic}
                   src="/images/mingslogo.svg"
                   height={85}
                   width={103}
-                ></img>
+                ></Image>
               </div>  
             </div>
             {/* CARD 2 */}
@@ -60,13 +60,13 @@ export default function Home() {
                 <h1 className={globalStyles.h1}>COOKING WITH <br></br>CHEF MING</h1>
                 <button className={globalStyles.button}>REGISTER</button>
               </div>
-              <div className={globalStyles.tPicContainerTwo}>
-                <img
+              <div className={globalStyles.tPicContainer}>
+                <Image
                   className={globalStyles.tPic}
                   src="/images/chef.png"
                   height={140}
-                  width={127}
-                ></img>
+                  width={126}
+                ></Image>
               </div>  
             </div>
             {/* CARD 3 */}
@@ -76,13 +76,13 @@ export default function Home() {
                 <h1 className={globalStyles.h1}>COOKING WITH<br></br> OUR FOUNDERS</h1>
                 <button className={globalStyles.button}>REGISTER</button>
               </div>
-              <div className={globalStyles.tPicContainerThree}>
-                <img
+              <div className={globalStyles.tPicContainer}>
+                <Image
                   className={globalStyles.tPic}
                   src="/images/sandwich.png"
                   height={106}
                   width={127}
-                ></img>
+                ></Image>
               </div>  
             </div>
           </div>
@@ -93,12 +93,12 @@ export default function Home() {
               {/* B-CARD 1 */}
               <div className={globalStyles.bottomCard}>
                 <div className={globalStyles.picContainer}>
-                  <img
+                  <Image
                     className={globalStyles.bottomPicOne}
                     src="/images/ming.png"
                     height={253}
                     width={228}
-                  ></img>
+                  ></Image>
                 </div>  
                 <div className={globalStyles.bTextContainer}>
                   <p className={globalStyles.p}><span className={globalStyles.eventP}>ARTICLES</span> | 8 MIN READ</p>
@@ -109,28 +109,28 @@ export default function Home() {
               {/* B-CARD 2 */}
               <div className={globalStyles.bottomCard}>
                 <div className={globalStyles.picContainer}>
-                  <img
+                  <Image
                     className={globalStyles.bottomPicTwo}
                     src="/images/bings.png"
                     height={174}
                     width={164}
-                  ></img>
+                  ></Image>
                 </div>  
                 <div className={globalStyles.bTextContainer}>
                     <p className={globalStyles.p}><span className={globalStyles.eventP}>ARTICLES</span> | 3 MIN READ</p>
-                    <h1 className={globalStyles.h1}>LEARN BASIC BING PREP TODAY</h1>
+                    <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
                     <button className={globalStyles.button}>READ RECIPE</button>
                 </div>
               </div>
               {/* B-CARD 3 */}
               <div className={globalStyles.bottomCard}>
                 <div className={globalStyles.picContainer}>
-                    <img
+                    <Image
                       className={globalStyles.bottomPicThree}
                       src="/images/knives.png"
                       height={191}
                       width={167}
-                    ></img>
+                    ></Image>
                 </div>  
                 <div className={globalStyles.bTextContainer}>
                     <p className={globalStyles.p}><span className={globalStyles.eventP}>ARTICLES</span> | 6 MIN READ</p>
