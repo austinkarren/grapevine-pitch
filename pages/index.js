@@ -35,51 +35,54 @@ export default function Home() {
               width= {668}
             ></Image>
           </div>
-          {/* SIDE CARD DECK */}
+          {/* RIGHT SIDE CARD DECK */}
           <div className={globalStyles.cardDeck}>
-            <div className={globalStyles.cardOne}>
+            {/* CARD 1 */}
+            <div className={globalStyles.card}>
               <div className={globalStyles.textContainer}>
                 <p>EVENTS | MAY 05 2021</p>
                 <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
                 <button className={globalStyles.button}>REGISTER</button>
               </div>
-              <div >
-                <Image
-                  className={globalStyles.logoPic}
+              <div className={globalStyles.tPicContainer}>
+                <img
+                  className={globalStyles.tPic}
                   src="/images/mingslogo.svg"
-                  height={180}
-                  width={126}
-                ></Image>
+                  height={85}
+                  width={103}
+                ></img>
               </div>  
             </div>
-            <div className={globalStyles.cardOne}>
+            {/* CARD 2 */}
+            <div className={globalStyles.card}>
               <div className={globalStyles.textContainer}>
                 <p>EVENTS | MAY 05 2021</p>
                 <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
                 <button className={globalStyles.button}>REGISTER</button>
               </div>
-              <div className={globalStyles.picContainerTwo}>
-                <Image
-                  className={globalStyles.chefPic}
+              <div className={globalStyles.tPicContainer}>
+                <img
+                  className={globalStyles.tPic}
                   src="/images/chef.png"
-                  height={180}
-                  width={170}
-                ></Image>
+                  height={140}
+                  width={127}
+                ></img>
               </div>  
             </div>
-            <div className={globalStyles.cardOne}>
+            {/* CARD 3 */}
+            <div className={globalStyles.card}>
               <div className={globalStyles.textContainer}>
                 <p>EVENTS | MAY 05 2021</p>
                 <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
                 <button className={globalStyles.button}>REGISTER</button>
               </div>
-              <div className={globalStyles.picContainerThree}>
-                <Image
-                  className={globalStyles.chefPic}
+              <div className={globalStyles.tPicContainer}>
+                <img
+                  className={globalStyles.tPic}
                   src="/images/sandwich.png"
-                  height={140}
-                  width={126}
-                ></Image>
+                  height={106}
+                  width={127}
+                ></img>
               </div>  
             </div>
           </div>
@@ -87,6 +90,7 @@ export default function Home() {
           {/* BOTTOM CARD DECK */}
           <div className={globalStyles.footer}>
             <div className={globalStyles.bottomDeck}>
+              {/* B-CARD 1 */}
               <div className={globalStyles.bottomCardOne}>
                 <div className={globalStyles.picContainer}>
                   <img
@@ -102,6 +106,7 @@ export default function Home() {
                   <button className={globalStyles.button}>REGISTER</button>
                 </div>
               </div>
+              {/* B-CARD 2 */}
               <div className={globalStyles.bottomCardTwo}>
                 <div className={globalStyles.picContainer}>
                   <img
@@ -117,6 +122,7 @@ export default function Home() {
                     <button className={globalStyles.button}>REGISTER</button>
                 </div>
               </div>
+              {/* B-CARD 3 */}
               <div className={globalStyles.bottomCardThree}>
                 <div className={globalStyles.picContainer}>
                     <img
