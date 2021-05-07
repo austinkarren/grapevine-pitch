@@ -37,6 +37,7 @@
 .cardDeck {
   display:flex;
   flex-direction: column;
+  position:relative;
   width: 25%;
   margin-left: 5%;
 }
@@ -48,6 +49,7 @@
   margin-bottom: 16px;
   padding: 8px 15px 8px 20px;
   background-color: #e4edf8;
+  position:relative;
 }
 .textContainer {
   display: flex;
@@ -56,10 +58,30 @@
   min-height: 95%;
   margin-right: 10%
 }
-.tPicContainer {
+.tPicContainerOne{
   display:flex;
   width: 20%;
-  min-height: 95%
+  min-height: 95%;
+  position:relative;
+  top: 58%;
+  left: 5%
+  
+}
+.tPicContainerTwo{
+  display:flex;
+  width: 20%;
+  min-height: 95%;
+  position:relative;
+  top: 20%;
+  
+}
+.tPicContainerThree{
+  display:flex;
+  width: 20%;
+  min-height: 95%;
+  position:relative;
+  top: 55%
+  
 }
 .textContainer .h1 {
   font-size: 20px;

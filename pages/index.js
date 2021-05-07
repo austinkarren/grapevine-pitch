@@ -41,10 +41,10 @@ export default function Home() {
             <div className={globalStyles.card}>
               <div className={globalStyles.textContainer}>
                 <p>EVENTS | MAY 05 2021</p>
-                <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
+                <h1 className={globalStyles.h1}>LEARN BASIC BING <br></br>PREP TODAY</h1>
                 <button className={globalStyles.button}>REGISTER</button>
               </div>
-              <div className={globalStyles.tPicContainer}>
+              <div className={globalStyles.tPicContainerOne}>
                 <img
                   className={globalStyles.tPic}
                   src="/images/mingslogo.svg"
@@ -57,10 +57,10 @@ export default function Home() {
             <div className={globalStyles.card}>
               <div className={globalStyles.textContainer}>
                 <p>EVENTS | MAY 05 2021</p>
-                <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
+                <h1 className={globalStyles.h1}>COOKING WITH <br></br>CHEF MING</h1>
                 <button className={globalStyles.button}>REGISTER</button>
               </div>
-              <div className={globalStyles.tPicContainer}>
+              <div className={globalStyles.tPicContainerTwo}>
                 <img
                   className={globalStyles.tPic}
                   src="/images/chef.png"
@@ -73,10 +73,10 @@ export default function Home() {
             <div className={globalStyles.card}>
               <div className={globalStyles.textContainer}>
                 <p>EVENTS | MAY 05 2021</p>
-                <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
+                <h1 className={globalStyles.h1}>COOKING WITH<br></br> OUR FOUNDERS</h1>
                 <button className={globalStyles.button}>REGISTER</button>
               </div>
-              <div className={globalStyles.tPicContainer}>
+              <div className={globalStyles.tPicContainerThree}>
                 <img
                   className={globalStyles.tPic}
                   src="/images/sandwich.png"
@@ -102,8 +102,8 @@ export default function Home() {
                 </div>  
                 <div className={globalStyles.textContainer}>
                   <p>EVENTS | MAY 05 2021</p>
-                  <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
-                  <button className={globalStyles.button}>REGISTER</button>
+                  <h1 className={globalStyles.h1}>THIS CHEF'S ON HIS OWN MISSION</h1>
+                  <button className={globalStyles.button}>READ ARTICLE</button>
                 </div>
               </div>
               {/* B-CARD 2 */}
@@ -118,8 +118,8 @@ export default function Home() {
                 </div>  
                 <div className={globalStyles.textContainer}>
                     <p>EVENTS | MAY 05 2021</p>
-                    <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
-                    <button className={globalStyles.button}>REGISTER</button>
+                    <h1 className={globalStyles.h1}>LEARN BASIC BING PREP TODAY</h1>
+                    <button className={globalStyles.button}>READ RECIPE</button>
                 </div>
               </div>
               {/* B-CARD 3 */}
@@ -134,8 +134,8 @@ export default function Home() {
                 </div>  
                 <div className={globalStyles.textContainer}>
                     <p>EVENTS | MAY 05 2021</p>
-                    <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
-                    <button className={globalStyles.button}>REGISTER</button>
+                    <h1 className={globalStyles.h1}>HIGH QUALITY TRADITION</h1>
+                    <button className={globalStyles.button}>READ ARTICLE</button>
                 </div>
               </div>
             </div>
