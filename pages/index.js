@@ -56,7 +56,7 @@ export default function Home() {
             {/* CARD 2 */}
             <div className={globalStyles.card}>
               <div className={globalStyles.textContainer}>
-                <p className={globalStyles.p}><span className={globalStyles.eventP}>EVENTS</span> | MAY 05 2021</p>
+                <p className={globalStyles.p}><span className={globalStyles.eventP}>EVENTS</span> | MAY 12 2021</p>
                 <h1 className={globalStyles.h1}>COOKING WITH <br></br>CHEF MING</h1>
                 <button className={globalStyles.button}>REGISTER</button>
               </div>
@@ -72,7 +72,7 @@ export default function Home() {
             {/* CARD 3 */}
             <div className={globalStyles.card}>
               <div className={globalStyles.textContainer}>
-                <p className={globalStyles.p}><span className={globalStyles.eventP}>EVENTS</span> | MAY 05 2021</p>
+                <p className={globalStyles.p}><span className={globalStyles.eventP}>EVENTS</span> | MAY 19 2021</p>
                 <h1 className={globalStyles.h1}>COOKING WITH<br></br> OUR FOUNDERS</h1>
                 <button className={globalStyles.button}>REGISTER</button>
               </div>
@@ -101,7 +101,7 @@ export default function Home() {
                   ></img>
                 </div>  
                 <div className={globalStyles.bTextContainer}>
-                  <p className={globalStyles.p}><span className={globalStyles.eventP}>EVENTS</span> | MAY 05 2021</p>
+                  <p className={globalStyles.p}><span className={globalStyles.eventP}>ARTICLES</span> | 8 MIN READ</p>
                   <h1 className={globalStyles.h1}>CHEF ON A MISSION</h1>
                   <button className={globalStyles.button}>READ ARTICLE</button>
                 </div>
@@ -117,7 +117,7 @@ export default function Home() {
                   ></img>
                 </div>  
                 <div className={globalStyles.bTextContainer}>
-                    <p className={globalStyles.p}><span className={globalStyles.eventP}>EVENTS</span> | MAY 05 2021</p>
+                    <p className={globalStyles.p}><span className={globalStyles.eventP}>ARTICLES</span> | 3 MIN READ</p>
                     <h1 className={globalStyles.h1}>LEARN BASIC BING PREP TODAY</h1>
                     <button className={globalStyles.button}>READ RECIPE</button>
                 </div>
@@ -133,7 +133,7 @@ export default function Home() {
                     ></img>
                 </div>  
                 <div className={globalStyles.bTextContainer}>
-                    <p className={globalStyles.p}><span className={globalStyles.eventP}>EVENTS</span> | MAY 05 2021</p>
+                    <p className={globalStyles.p}><span className={globalStyles.eventP}>ARTICLES</span> | 6 MIN READ</p>
                     <h1 className={globalStyles.h1}>HIGH QUALITY TRADITION</h1>
                     <button className={globalStyles.button}>READ ARTICLE</button>
                 </div>

@@ -96,8 +96,12 @@
   color: rgb(233, 233, 233);
   min-width: 133px;
   min-height: 29px;
-  font-size: 10px;
+  font-size: 12px;
   border: none;
+  cursor: pointer;
+}
+.textContainer .button:hover {
+  font-size: 13px;
 }
 .eventP {
   color: red;
@@ -162,7 +166,11 @@
   color: rgb(233, 233, 233);
   min-width: 133px;
   min-height: 29px;
-  font-size: 10px;
+  font-size: 12px;
   border: none;
+  cursor: pointer;
+}
+.bTextContainer .button:hover {
+  font-size: 13px;
 }
 
