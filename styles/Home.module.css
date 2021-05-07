@@ -3,32 +3,36 @@
   grid-template-columns: repeat(24, 1fr); 
   grid-template-rows: repeat(24, 1fr);
   padding: 44px 90px 44px 90px;
-
 }
-.heroText {
+.mainGrid{
+  display: grid;
+  width: 100%;
   grid-column-start: 2;
-  grid-column-end: 7;
+  grid-column-end: 25;
   grid-row-start: 1;
   grid-row-end: 10;
 }
-.heroBody {
-  font-size: 20px;
+.mainFlex {
+  display: flex;
+  flex-direction: row;
+}
+.heroText{
+  display:flex;
+  flex-direction: column;
+  width: 25%;
 }
 .heroHeading {
   font-size: 15px;
 }
-.heroImage  {
-  grid-column-start: 8 ;
-  grid-column-end: 20;
-  grid-row-start: 1;
-  grid-row-end: 10;
+.heroBody {
+  font-size: 20px;
+}
+.heroImage {
+  margin-left: 5%;
 }
 .cardDeck {
-  grid-column-start: 19 ;
-  grid-column-end: 25;
-  grid-row-start: 1;
-  grid-row-end: 10;
-  max-width: 350px;
+  width: 25%;
+  margin-left: 5%;
 }
 .cardOne {
   grid-column-start:20;

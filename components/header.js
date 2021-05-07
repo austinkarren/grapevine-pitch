@@ -19,12 +19,16 @@ export default function Navbar () {
                     <Link href="/posts/podcasts"><a className={headerStyles.a}>Podcasts</a></Link>
                 </div>
                 <div className={headerStyles.imageWrap}>
-                    <Image
-                        className={headerStyles.image}
-                        src="/images/gvslogo.svg"
-                        height={102}
-                        width={440}
-                    ></Image>
+                    <Link href="/">
+                        <a>
+                            <Image
+                                className={headerStyles.image}
+                                src="/images/gvslogo.svg"
+                                height={102}
+                                width={440}
+                            ></Image>
+                        </a>
+                    </Link>
                 </div>
                 <div className={headerStyles.navTwo}>
                     <Link href="/posts/magazines"><a className={headerStyles.a}>Magazines</a></Link>

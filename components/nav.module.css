@@ -1,0 +1,45 @@
+/* NAVIGATION BAR */
+.navbar {
+  overflow: hidden;
+  font-family: Arial;
+  display: flex;
+  margin-top: 50px;
+  flex-direction: row;
+  justify-content: center;
+}
+.navOne {
+  border-bottom:2px solid lightblue;
+  height: 75px;
+}
+.navTwo {
+  border-bottom: 2px solid lightblue;
+  height: 75px;
+}
+/* NAV LINKS */
+.navbar .a {
+  float: left;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* TOP BANNER ABOVE NAV */
+.topBar{
+  min-height: 55px;
+  width: 100%;
+  background-color: #6c8cf5;
+  color: white;
+  position: relative;
+}
+.topBarCentered {
+  margin-left: 35%;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);  
+}
+.h2{
+  text-align: center;
+}
+
