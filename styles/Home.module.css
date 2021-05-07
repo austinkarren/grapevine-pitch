@@ -114,7 +114,7 @@
 }
 /* BOTTOM CARD DECK */
 .bottomDeck {
-  width: 100%;
+  width: 84%;
   max-height: 161px;
   display: flex;
   flex-direction: row;
@@ -131,7 +131,8 @@
   background-color: #e4edf8;
   position:relative;
   border-right:3px solid #b9d7ff;
-  width: 33%;
+  width: 35%;
+  min-height: 100%;
 
 }
 .picContainer{
