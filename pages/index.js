@@ -64,9 +64,9 @@ export default function Home() {
                   <Image
                     className={globalStyles.tPic}
                     src="/images/chef.png"
-                    height={220}
-                    width={198}
-                  ></Image>
+                    height={195}
+                    width={176}
+                ></Image>
                 </div>  
               </div>
               {/* CARD 3 */}
@@ -109,10 +109,10 @@ export default function Home() {
                 <div className={globalStyles.lowerCard}>
                   <div className={globalStyles.bPicContainer}>
                     <Image
-                      className={globalStyles.bottomPicOne}
-                      src="/images/chef.png"
-                      height={195}
-                      width={176}
+                      className={globalStyles.bottomPicTwo}
+                      src="/images/bings.png"
+                      height={174}
+                      width={164}
                     ></Image>
                   </div>  
                   <div className={globalStyles.bTextContainer}>
@@ -124,10 +124,10 @@ export default function Home() {
                 <div className={globalStyles.lowerCard}>
                   <div className={globalStyles.bPicContainer}>
                     <Image
-                      className={globalStyles.bottomPicOne}
-                      src="/images/chef.png"
-                      height={195}
-                      width={176}
+                      className={globalStyles.bottomPicThree}
+                      src="/images/knives.png"
+                      height={191}
+                      width={167}
                     ></Image>
                   </div>  
                   <div className={globalStyles.bTextContainer}>

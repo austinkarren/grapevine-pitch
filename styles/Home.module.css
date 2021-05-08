@@ -48,7 +48,7 @@
   margin-bottom: 16px;
   padding: 8px 15px 8px 20px;
   background-color: #e4edf8;
-  width: 400px;
+  width: 100%;
 }
 /* TOP CARD TEXT */
 .textContainer {
@@ -104,8 +104,9 @@
 .bTextContainer {
   justify-content: right;
   width: 50%;
-  position: relative;
-  top:20%;
+  margin-top: 5%;
+  /* position: relative;
+  top:20%; */
 }
 .lowerCard .button {
   background-color: #2c2724;
