@@ -18,23 +18,23 @@ export default function Home() {
         <div className={globalStyles.mainGrid}>
           <div className={globalStyles.mainFlex}>
           {/* HERO SECTION WITH IMAGE AND TEXT */}
-          <div className={globalStyles.heroText}>
-            <div className={globalStyles.heroHeading}>
-              <h1>MEET MINGSBINGS <br></br>CHEF MING TSAI</h1>
+            <div className={globalStyles.heroText}>
+              <div className={globalStyles.heroHeading}>
+                <h1>MEET MINGSBINGS <br></br>CHEF MING TSAI</h1>
+              </div>
+              <div className={globalStyles.heroBody}>
+                <p>Ming Tsai is a chef, restaurateur, cookbook author, James Beard award winner, Emmy Award winner, and host of the longest-running cooking show on PBS, now in its 17th season. </p>
+                <p>As a culinary and cultural pioneer of East meets West cuisine, he’s led the way for a creative, thoughtful, and delicious blending of flavors, temperatures, and textures while trailblazing a path for generations.
+                </p>
+              </div>   
             </div>
-            <div className={globalStyles.heroBody}>
-              <p className={globalStyles.p}>Ming Tsai is a chef, restaurateur, cookbook author, James Beard award winner, Emmy Award winner, and host of the longest-running cooking show on PBS, now in its 17th season. </p>
-              <p>As a culinary and cultural pioneer of East meets West cuisine, he’s led the way for a creative, thoughtful, and delicious blending of flavors, temperatures, and textures while trailblazing a path for generations.
-              </p>
-            </div>   
-          </div>
-          <div className={globalStyles.heroImage}>
-            <Image
-              src="/images/veggies.png"
-              height={547}
-              width= {673}
-            ></Image>
-          </div>
+            <div className={globalStyles.heroImage}>
+              <Image
+                src="/images/veggies.png"
+                height={576}
+                width= {710}
+              ></Image>
+            </div>
           {/* RIGHT SIDE CARD DECK */}
           <div className={globalStyles.cardDeck}>
             {/* CARD 1 */}

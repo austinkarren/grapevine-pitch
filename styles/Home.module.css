@@ -8,8 +8,7 @@
 /* MAIN CONTENT CONTAINERS */
 .mainGrid{
   display: grid;
-  width: 100%;
-  grid-column-start: 2;
+  grid-column-start: 1;
   grid-column-end: 25;
   grid-row-start: 1;
   grid-row-end: 10;
@@ -17,6 +16,7 @@
 .mainFlex {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 /* HERO SECTION */
 .heroText{
@@ -28,9 +28,25 @@
   font-size: 15px;
 }
 .heroBody {
-  font-size: 20px;
+  font-size: 23px;
 }
 @media (max-width: 1500px) {
+  .heroBody {
+    font-size: 18px;
+  }
+  .heroHeading {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1300px) {
+  .heroBody {
+    font-size: 13px;
+  }
+  .heroHeading {
+    font-size: 11px;
+  }
+}
+@media (max-width: 1080px;) {
   .heroBody {
     font-size: 15px;
   }
@@ -43,52 +59,49 @@
 }
 /* RIGHT SIDE CARD DECK */
 .cardDeck {
-  display:flex;
-  flex-direction: column;
-  width: 25%;
-  margin-left: 5%;
+  display:grid;
+  grid-column-start: 19;
+  grid-column-end:25;
+  margin-left:2%;
 }
 .card {
   display: flex;
   flex-direction: row;
-  min-height: 33%;
+  height: 100%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   margin-bottom: 16px;
   padding: 8px 15px 8px 20px;
   background-color: #e4edf8;
   width: 400px;
 }
-.tPicContainerOne{
-}
-.tPicContainerTwo{
-  bottom: 10px;
-  position: relative;
-}
-.tPicContainerThree{
-}
 /* TOP CARD TEXT */
 .textContainer {
   width: 66%;
-  margin-right: 15%;
   margin-left: 5%;
+  margin-right: 15%;
 }
-.textContainer .h1 {
+.h1 {
   font-size: 15px;
 }
 @media (max-width: 1315px) {
   .textContainer .h1 {
     font-size: 12px;
   }
+  .bTextContainer .h1 {
+    font-size: 12px;
+  }
 }
 .textContainer .p {
-  font-size: 15px;
+  font-size: 14px;
 }
 @media (max-width: 1665px) {
   .textContainer .p {
     font-size: 11px;
   }
+  .bTextContainer .p {
+    font: 11px;
+  }
 }
-
 .textContainer .button {
   background-color: #2c2724;
   color: rgb(233, 233, 233);
@@ -104,23 +117,21 @@
 .eventP {
   color: red;
 }
+
 /* BOTTOM CONTENT AREA */
 .footer {
-  grid-column-start: 1 ;
-  grid-column-end: 25;
+  grid-column-start:1;
+  grid-column-end: end; 
   grid-row-start: 10;
   grid-row-end: 14 ;  
 }
 /* BOTTOM CARD DECK */
 .bottomDeck {
-  width: 1700px;
-  max-height: 161px;
   display: flex;
   flex-direction: row;
   background-color: #e4edf8 ;
-  margin-top: 45px;
+  margin-top: 3%;
   border-top: 5px solid #b9d7ff;
-  position: absolute;
 }
 .bottomCard {
   display: flex;
@@ -128,26 +139,24 @@
   margin-bottom: 16px;
   padding: 8px 15px 8px 20px;
   background-color: #e4edf8;
-  position:relative;
   border-right:3px solid #b9d7ff;
   width: 35%;
   min-height: 100%;
-
 }
 /* BOTTOM CARD PICTURES */
 .bPicContainer{
   width: 30%;
 }
 .bTextContainer {
-  width: 60%;
+  width: 66%;
   margin-left: 15%;
 }
 /* BOTTOM CARD TEXT  */
 .bTextContainer .p {
-  font-size: 15px;
+  font-size: 14px;
 }
 .bTextContainer .h1 {
-  font-size: 20px;
+  font-size: 15px;
 }
 @media (max-width: 1655px) {
   .bTextContainer .h1 {
