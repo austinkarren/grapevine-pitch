@@ -36,61 +36,118 @@ export default function Home() {
               ></Image>
             </div>
           {/* RIGHT SIDE CARD DECK */}
-          <div className={globalStyles.cardDeck}>
-            {/* CARD 1 */}
-            <div className={globalStyles.card}>
-              <div className={globalStyles.textContainer}>
-                <p className={globalStyles.p}><span className={globalStyles.eventP}>EVENTS</span> | MAY 05 2021</p>
-                <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
-                <button className={globalStyles.button}>REGISTER</button>
+            <div className={globalStyles.cardDeck}>
+              {/* CARD 1 */}
+              <div className={globalStyles.card}>
+                <div className={globalStyles.textContainer}>
+                  <p className={globalStyles.p}><span className={globalStyles.eventP}>EVENTS</span> | MAY 05 2021</p>
+                  <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
+                  <button className={globalStyles.button}>REGISTER</button>
+                </div>
+                <div className={globalStyles.tPicContainer}>
+                  <Image
+                    className={globalStyles.tPic}
+                    src="/images/mingslogo.svg"
+                    height={170}
+                    width={206}
+                  ></Image>
+                </div>  
               </div>
-              <div className={globalStyles.tPicContainer}>
-                <Image
-                  className={globalStyles.tPic}
-                  src="/images/mingslogo.svg"
-                  height={170}
-                  width={206}
-                ></Image>
-              </div>  
-            </div>
-            {/* CARD 2 */}
-            <div className={globalStyles.card}>
-              <div className={globalStyles.textContainer}>
-                <p className={globalStyles.p}><span className={globalStyles.eventP}>EVENTS</span> | MAY 12 2021</p>
-                <h1 className={globalStyles.h1}>COOKING WITH <br></br>CHEF MING</h1>
-                <button className={globalStyles.button}>REGISTER</button>
+              {/* CARD 2 */}
+              <div className={globalStyles.card}>
+                <div className={globalStyles.textContainer}>
+                  <p className={globalStyles.p}><span className={globalStyles.eventP}>EVENTS</span> | MAY 12 2021</p>
+                  <h1 className={globalStyles.h1}>COOKING WITH <br></br>CHEF MING</h1>
+                  <button className={globalStyles.button}>REGISTER</button>
+                </div>
+                <div className={globalStyles.tPicContainer}>
+                  <Image
+                    className={globalStyles.tPic}
+                    src="/images/chef.png"
+                    height={220}
+                    width={198}
+                  ></Image>
+                </div>  
               </div>
-              <div className={globalStyles.tPicContainer}>
-                <Image
-                  className={globalStyles.tPic}
-                  src="/images/chef.png"
-                  height={220}
-                  width={198}
-                ></Image>
-              </div>  
-            </div>
-            {/* CARD 3 */}
-            <div className={globalStyles.card}>
-              <div className={globalStyles.textContainer}>
-                <p className={globalStyles.p}><span className={globalStyles.eventP}>EVENTS</span> | MAY 19 2021</p>
-                <h1 className={globalStyles.h1}>COOKING WITH<br></br> OUR FOUNDERS</h1>
-                <button className={globalStyles.button}>REGISTER</button>
+              {/* CARD 3 */}
+              <div className={globalStyles.card}>
+                <div className={globalStyles.textContainer}>
+                  <p className={globalStyles.p}><span className={globalStyles.eventP}>EVENTS</span> | MAY 19 2021</p>
+                  <h1 className={globalStyles.h1}>COOKING WITH<br></br> OUR FOUNDERS</h1>
+                  <button className={globalStyles.button}>REGISTER</button>
+                </div>
+                <div className={globalStyles.tPicContainer}>
+                  <Image
+                    className={globalStyles.tPic}
+                    src="/images/sandwich.png"
+                    height={210}
+                    width={254}
+                  ></Image>
+                </div>  
               </div>
-              <div className={globalStyles.tPicContainer}>
-                <Image
-                  className={globalStyles.tPic}
-                  src="/images/sandwich.png"
-                  height={210}
-                  width={254}
-                ></Image>
-              </div>  
             </div>
-          </div>
           </div>
           {/* BOTTOM CARD DECK */}
-          <div className={globalStyles.footer}>
-            <div className={globalStyles.bottomDeck}>
-              {/* B-CARD 1 */}
+          <div className={globalStyles.lowerGrid}>
+            <div className={globalStyles.lowerFlex}>
+
+                <div className={globalStyles.lowerCard}>
+                  <div className={globalStyles.bPicContainer}>
+                    <Image
+                      className={globalStyles.bottomPicOne}
+                      src="/images/chef.png"
+                      height={195}
+                      width={176}
+                    ></Image>
+                  </div>  
+                  <div className={globalStyles.bTextContainer}>
+                    <p className={globalStyles.p}><span className={globalStyles.eventP}>ARTICLES</span> | 8 MIN READ</p>
+                    <h1 className={globalStyles.h1}>CHEF ON A MISSION</h1>
+                    <button className={globalStyles.button}>READ ARTICLE</button>
+                  </div>            
+                </div>     
+                <div className={globalStyles.lowerCard}>
+                  <div className={globalStyles.bPicContainer}>
+                    <Image
+                      className={globalStyles.bottomPicOne}
+                      src="/images/chef.png"
+                      height={195}
+                      width={176}
+                    ></Image>
+                  </div>  
+                  <div className={globalStyles.bTextContainer}>
+                    <p className={globalStyles.p}><span className={globalStyles.eventP}>ARTICLES</span> | 8 MIN READ</p>
+                    <h1 className={globalStyles.h1}>CHEF ON A MISSION</h1>
+                    <button className={globalStyles.button}>READ ARTICLE</button>
+                  </div>            
+                </div>     
+                <div className={globalStyles.lowerCard}>
+                  <div className={globalStyles.bPicContainer}>
+                    <Image
+                      className={globalStyles.bottomPicOne}
+                      src="/images/chef.png"
+                      height={195}
+                      width={176}
+                    ></Image>
+                  </div>  
+                  <div className={globalStyles.bTextContainer}>
+                    <p className={globalStyles.p}><span className={globalStyles.eventP}>ARTICLES</span> | 8 MIN READ</p>
+                    <h1 className={globalStyles.h1}>CHEF ON A MISSION</h1>
+                    <button className={globalStyles.button}>READ ARTICLE</button>
+                  </div>            
+                </div>     
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  )
+}
+
+
+          // <div className={globalStyles.footer}>
+            {/* <div className={globalStyles.bottomDeck}>
               <div className={globalStyles.bottomCard}>
                 <div className={globalStyles.bPicContainer}>
                   <Image
@@ -106,7 +163,6 @@ export default function Home() {
                   <button className={globalStyles.button}>READ ARTICLE</button>
                 </div>
               </div>
-              {/* B-CARD 2 */}
               <div className={globalStyles.bottomCard}>
                 <div className={globalStyles.bPicContainer}>
                   <Image
@@ -122,7 +178,6 @@ export default function Home() {
                     <button className={globalStyles.button}>READ RECIPE</button>
                 </div>
               </div>
-              {/* B-CARD 3 */}
               <div className={globalStyles.bottomCard}>
                 <div className={globalStyles.bPicContainer}>
                     <Image
@@ -138,10 +193,4 @@ export default function Home() {
                     <button className={globalStyles.button}>READ ARTICLE</button>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
-  )
-}
+            </div> */}

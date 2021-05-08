@@ -30,30 +30,6 @@
 .heroBody {
   font-size: 23px;
 }
-@media (max-width: 1500px) {
-  .heroBody {
-    font-size: 18px;
-  }
-  .heroHeading {
-    font-size: 12px;
-  }
-}
-@media (max-width: 1300px) {
-  .heroBody {
-    font-size: 13px;
-  }
-  .heroHeading {
-    font-size: 11px;
-  }
-}
-@media (max-width: 1080px;) {
-  .heroBody {
-    font-size: 15px;
-  }
-  .heroHeading {
-    font-size: 12px;
-  }
-}
 .heroImage {
   margin-left: 2%;
 }
@@ -83,24 +59,8 @@
 .h1 {
   font-size: 15px;
 }
-@media (max-width: 1315px) {
-  .textContainer .h1 {
-    font-size: 12px;
-  }
-  .bTextContainer .h1 {
-    font-size: 12px;
-  }
-}
 .textContainer .p {
   font-size: 14px;
-}
-@media (max-width: 1665px) {
-  .textContainer .p {
-    font-size: 11px;
-  }
-  .bTextContainer .p {
-    font: 11px;
-  }
 }
 .textContainer .button {
   background-color: #2c2724;
@@ -118,63 +78,82 @@
   color: red;
 }
 
-/* BOTTOM CONTENT AREA */
-/* .footer {
+.lowerGrid {
+  display: grid;
   grid-column-start:1;
-  grid-column-end: end; 
-  grid-row-start: 10;
-  grid-row-end: 14 ;  
-} */
-/* BOTTOM CARD DECK */
-.bottomDeck {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: #e4edf8 ;
-  margin-top: 3%;
-  border-top: 5px solid #b9d7ff;
-  height: 60%;
-}
-.bottomCard {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-bottom: 16px;
-  padding: 8px 15px 8px 20px;
+  grid-column-end:25;
+  grid-row-start:11;
+  grid-row-end:15;
+  margin-top: 5%;
   background-color: #e4edf8;
-  border-right:3px solid #b9d7ff;
-  width: 33%;
+  border-top: 4px solid #b9d7ff;
+
 }
-/* BOTTOM CARD PICTURES */
-.bPicContainer {}
-/* BOTTOM CARD TEXT  */
-.bTextContainer {
-  width: 50%;
-  margin-left: 15%;
+.lowerFlex {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  /* justify-content:space-evenly; */
 }
-.bTextContainer .p {
-  font-size: 14px;
+.lowerCard {
+  display: flex;
+  flex-direction: row;
+  width: 33.3333%;
+  border-right: 2px solid #b9d7ff;
+
 }
-.bTextContainer .h1 {
-  font-size: 15px;
+.bTextContainer {
+  justify-content: right;
+  width: 50%;
+  position: relative;
+  top:20%;
 }
-@media (max-width: 1655px) {
-  .bTextContainer .h1 {
-    font-size: 15px;
-  }
-}
-.bTextContainer .button {
+.lowerCard .button {
   background-color: #2c2724;
   color: rgb(233, 233, 233);
-  max-width: 130px;
-  min-height: 29px;
   font-size: 12px;
   border: none;
   cursor: pointer;
+  width: 120px;
+  height: 25px;
 }
-.bTextContainer .button:hover {
-  font-size: 13px;
+
+
+
+/* MEDIA QUERIES */
+@media (max-width: 1665px) {
+  .textContainer .p {
+    font-size: 11px;
+  }
 }
+@media (max-width: 1315px) {
+  .textContainer .h1 {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1500px) {
+  .heroBody {
+    font-size: 18px;
+  }
+  .heroHeading {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1300px) {
+  .heroBody {
+    font-size: 13px;
+  }
+  .heroHeading {
+    font-size: 11px;
+  }
+}
+@media (max-width: 1080px;) {
+  .heroBody {
+    font-size: 15px;
+  }
+  .heroHeading {
+    font-size: 12px;
+  }
+}
+
+
 
