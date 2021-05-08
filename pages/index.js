@@ -44,7 +44,7 @@ export default function Home() {
                 <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
                 <button className={globalStyles.button}>REGISTER</button>
               </div>
-              <div className={globalStyles.tPicContainerOne}>
+              <div className={globalStyles.tPicContainer}>
                 <Image
                   className={globalStyles.tPic}
                   src="/images/mingslogo.svg"
@@ -60,7 +60,7 @@ export default function Home() {
                 <h1 className={globalStyles.h1}>COOKING WITH <br></br>CHEF MING</h1>
                 <button className={globalStyles.button}>REGISTER</button>
               </div>
-              <div className={globalStyles.tPicContainerTwo}>
+              <div className={globalStyles.tPicContainer}>
                 <Image
                   className={globalStyles.tPic}
                   src="/images/chef.png"
@@ -76,7 +76,7 @@ export default function Home() {
                 <h1 className={globalStyles.h1}>COOKING WITH<br></br> OUR FOUNDERS</h1>
                 <button className={globalStyles.button}>REGISTER</button>
               </div>
-              <div className={globalStyles.tPicContainerThree}>
+              <div className={globalStyles.tPicContainer}>
                 <Image
                   className={globalStyles.tPic}
                   src="/images/sandwich.png"
@@ -96,8 +96,8 @@ export default function Home() {
                   <Image
                     className={globalStyles.bottomPicOne}
                     src="/images/chef.png"
-                    height={253}
-                    width={228}
+                    height={195}
+                    width={176}
                   ></Image>
                 </div>  
                 <div className={globalStyles.bTextContainer}>
