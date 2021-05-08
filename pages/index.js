@@ -116,8 +116,8 @@ export default function Home() {
                     ></Image>
                   </div>  
                   <div className={globalStyles.bTextContainer}>
-                    <p className={globalStyles.p}><span className={globalStyles.eventP}>ARTICLES</span> | 8 MIN READ</p>
-                    <h1 className={globalStyles.h1}>CHEF ON A MISSION</h1>
+                  <p className={globalStyles.p}><span className={globalStyles.eventP}>ARTICLES</span> | 3 MIN READ</p>
+                    <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
                     <button className={globalStyles.button}>READ ARTICLE</button>
                   </div>            
                 </div>     
@@ -131,8 +131,8 @@ export default function Home() {
                     ></Image>
                   </div>  
                   <div className={globalStyles.bTextContainer}>
-                    <p className={globalStyles.p}><span className={globalStyles.eventP}>ARTICLES</span> | 8 MIN READ</p>
-                    <h1 className={globalStyles.h1}>CHEF ON A MISSION</h1>
+                    <p className={globalStyles.p}><span className={globalStyles.eventP}>ARTICLES</span> | 6 MIN READ</p>
+                    <h1 className={globalStyles.h1}>HIGH QUALITY TRADITION</h1>
                     <button className={globalStyles.button}>READ ARTICLE</button>
                   </div>            
                 </div>     
