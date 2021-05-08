@@ -45,38 +45,35 @@
 .cardDeck {
   display:flex;
   flex-direction: column;
-  width: 20%;
+  width: 25%;
   margin-left: 5%;
-  
 }
 .card {
   display: flex;
   flex-direction: row;
+  min-height: 33%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  min-height: 30%;
   margin-bottom: 16px;
   padding: 8px 15px 8px 20px;
   background-color: #e4edf8;
+  width: 400px;
 }
-.tPicContainer{
-  width: 35%;
+.tPicContainerOne{
 }
+.tPicContainerTwo{
+  bottom: 10px;
+  position: relative;
+}
+.tPicContainerThree{
+}
+/* TOP CARD TEXT */
 .textContainer {
-  display: flex;
-  flex-direction: column;
-  width: 75%;
-  min-height: 95%;
-  max-height: 95%;
+  width: 66%;
   margin-right: 15%;
   margin-left: 5%;
 }
 .textContainer .h1 {
-  font-size: 20px;
-}
-@media (max-width: 1830px) {
-  .textContainer .h1 {
-    font-size: 15px;
-  }
+  font-size: 15px;
 }
 @media (max-width: 1315px) {
   .textContainer .h1 {
@@ -116,7 +113,7 @@
 }
 /* BOTTOM CARD DECK */
 .bottomDeck {
-  width: 84%;
+  width: 1700px;
   max-height: 161px;
   display: flex;
   flex-direction: row;
@@ -137,25 +134,15 @@
   min-height: 100%;
 
 }
-.picContainer{
-  width: 10%;
-}
-.bottomPicOne {
-  position: relative;
-  bottom: 106px;
-}
-.bottomPicTwo {
-  position: relative;
-  bottom: 35px;
-}
-.bottomPicThree {
-  position: relative;
-  bottom: 41px;
+/* BOTTOM CARD PICTURES */
+.bPicContainer{
+  width: 30%;
 }
 .bTextContainer {
   width: 60%;
   margin-left: 15%;
 }
+/* BOTTOM CARD TEXT  */
 .bTextContainer .p {
   font-size: 15px;
 }

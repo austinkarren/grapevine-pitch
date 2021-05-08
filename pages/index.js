@@ -44,12 +44,12 @@ export default function Home() {
                 <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
                 <button className={globalStyles.button}>REGISTER</button>
               </div>
-              <div className={globalStyles.tPicContainer}>
+              <div className={globalStyles.tPicContainerOne}>
                 <Image
                   className={globalStyles.tPic}
                   src="/images/mingslogo.svg"
-                  height={85}
-                  width={103}
+                  height={170}
+                  width={206}
                 ></Image>
               </div>  
             </div>
@@ -60,12 +60,12 @@ export default function Home() {
                 <h1 className={globalStyles.h1}>COOKING WITH <br></br>CHEF MING</h1>
                 <button className={globalStyles.button}>REGISTER</button>
               </div>
-              <div className={globalStyles.tPicContainer}>
+              <div className={globalStyles.tPicContainerTwo}>
                 <Image
                   className={globalStyles.tPic}
                   src="/images/chef.png"
-                  height={140}
-                  width={126}
+                  height={220}
+                  width={198}
                 ></Image>
               </div>  
             </div>
@@ -76,12 +76,12 @@ export default function Home() {
                 <h1 className={globalStyles.h1}>COOKING WITH<br></br> OUR FOUNDERS</h1>
                 <button className={globalStyles.button}>REGISTER</button>
               </div>
-              <div className={globalStyles.tPicContainer}>
+              <div className={globalStyles.tPicContainerThree}>
                 <Image
                   className={globalStyles.tPic}
                   src="/images/sandwich.png"
-                  height={106}
-                  width={127}
+                  height={210}
+                  width={254}
                 ></Image>
               </div>  
             </div>
@@ -92,10 +92,10 @@ export default function Home() {
             <div className={globalStyles.bottomDeck}>
               {/* B-CARD 1 */}
               <div className={globalStyles.bottomCard}>
-                <div className={globalStyles.picContainer}>
+                <div className={globalStyles.bPicContainer}>
                   <Image
                     className={globalStyles.bottomPicOne}
-                    src="/images/ming.png"
+                    src="/images/chef.png"
                     height={253}
                     width={228}
                   ></Image>
@@ -108,7 +108,7 @@ export default function Home() {
               </div>
               {/* B-CARD 2 */}
               <div className={globalStyles.bottomCard}>
-                <div className={globalStyles.picContainer}>
+                <div className={globalStyles.bPicContainer}>
                   <Image
                     className={globalStyles.bottomPicTwo}
                     src="/images/bings.png"
@@ -124,7 +124,7 @@ export default function Home() {
               </div>
               {/* B-CARD 3 */}
               <div className={globalStyles.bottomCard}>
-                <div className={globalStyles.picContainer}>
+                <div className={globalStyles.bPicContainer}>
                     <Image
                       className={globalStyles.bottomPicThree}
                       src="/images/knives.png"
