@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import globalStyles from '../styles/Home.module.css'
 import Header from '../components/header'
+import Eventcards from '../components/eventCards'
 
 export default function Home() {
   return (
@@ -36,61 +37,11 @@ export default function Home() {
               ></Image>
             </div>
           {/* RIGHT SIDE CARD DECK */}
-            <div className={globalStyles.cardDeck}>
-              {/* CARD 1 */}
-              <div className={globalStyles.card}>
-                <div className={globalStyles.textContainer}>
-                  <p className={globalStyles.p}><span className={globalStyles.eventP}>EVENTS</span> | MAY 05 2021</p>
-                  <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
-                  <button className={globalStyles.button}>REGISTER</button>
-                </div>
-                <div className={globalStyles.tPicContainer}>
-                  <Image
-                    className={globalStyles.tPic}
-                    src="/images/mingslogo.svg"
-                    height={170}
-                    width={206}
-                  ></Image>
-                </div>  
-              </div>
-              {/* CARD 2 */}
-              <div className={globalStyles.card}>
-                <div className={globalStyles.textContainer}>
-                  <p className={globalStyles.p}><span className={globalStyles.eventP}>EVENTS</span> | MAY 12 2021</p>
-                  <h1 className={globalStyles.h1}>COOKING WITH <br></br>CHEF MING</h1>
-                  <button className={globalStyles.button}>REGISTER</button>
-                </div>
-                <div className={globalStyles.tPicContainer}>
-                  <Image
-                    className={globalStyles.tPic}
-                    src="/images/chef.png"
-                    height={195}
-                    width={176}
-                ></Image>
-                </div>  
-              </div>
-              {/* CARD 3 */}
-              <div className={globalStyles.card}>
-                <div className={globalStyles.textContainer}>
-                  <p className={globalStyles.p}><span className={globalStyles.eventP}>EVENTS</span> | MAY 19 2021</p>
-                  <h1 className={globalStyles.h1}>COOKING WITH<br></br> OUR FOUNDERS</h1>
-                  <button className={globalStyles.button}>REGISTER</button>
-                </div>
-                <div className={globalStyles.tPicContainer}>
-                  <Image
-                    className={globalStyles.tPic}
-                    src="/images/sandwich.png"
-                    height={210}
-                    width={254}
-                  ></Image>
-                </div>  
-              </div>
-            </div>
-          </div>
+        <Eventcards></Eventcards>          
+        </div>
           {/* BOTTOM CARD DECK */}
           <div className={globalStyles.lowerGrid}>
             <div className={globalStyles.lowerFlex}>
-
                 <div className={globalStyles.lowerCard}>
                   <div className={globalStyles.bPicContainer}>
                     <Image
