@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import headerStyles from './header.module.css'
+import headerStyles from '../styles/header.module.css'
 import Link from 'next/link'
 
 export default function Navbar () {

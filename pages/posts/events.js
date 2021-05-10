@@ -1,5 +1,9 @@
 import Header from '../../components/header'
 import Head from 'next/head'
+import Eventcards from '../../components/eventCards'
+import eventsStyles from '../../styles/eventsPage.module.css'
+
+
 
 
 export default function eventsPage() {
@@ -11,6 +15,11 @@ export default function eventsPage() {
                 <link rel="icon" href="/images/favicon.ico" />
             </Head>
             <Header></Header>
+            <div className={eventsStyles.container}>
+                <div className={eventsStyles.cardDeck}>
+                    <Eventcards></Eventcards>
+                </div>
+            </div>
         </>
     )
 }

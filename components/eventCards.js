@@ -1,10 +1,9 @@
 import Image from 'next/image'
-import cardStyles from './eventCards.module.css'
+import cardStyles from '../styles/eventCards.module.css'
 
 export default function Cards () {
     return (
         <>
-        <div className={cardStyles.cardDeck}>
             {/* CARD 1 */}
             <div className={cardStyles.card}>
                 <div className={cardStyles.textContainer}>
@@ -53,7 +52,6 @@ export default function Cards () {
                     ></Image>
                 </div>  
             </div>
-        </div>
         </>
     )
 }

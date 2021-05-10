@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import globalStyles from '../styles/Home.module.css'
+import indexStyles from '../styles/Home.module.css'
 import Header from '../components/header'
 import Eventcards from '../components/eventCards'
 
@@ -15,21 +15,21 @@ export default function Home() {
 
       <Header></Header>
       {/* BODY CONTAINER */}
-      <div className={globalStyles.container}>
-        <div className={globalStyles.mainGrid}>
-          <div className={globalStyles.mainFlex}>
+      <div className={indexStyles.container}>
+        <div className={indexStyles.mainGrid}>
+          <div className={indexStyles.mainFlex}>
           {/* HERO SECTION WITH IMAGE AND TEXT */}
-            <div className={globalStyles.heroText}>
-              <div className={globalStyles.heroHeading}>
+            <div className={indexStyles.heroText}>
+              <div className={indexStyles.heroHeading}>
                 <h1>MEET MINGSBINGS <br></br>CHEF MING TSAI</h1>
               </div>
-              <div className={globalStyles.heroBody}>
+              <div className={indexStyles.heroBody}>
                 <p>Ming Tsai is a chef, restaurateur, cookbook author, James Beard award winner, Emmy Award winner, and host of the longest-running cooking show on PBS, now in its 17th season. </p>
                 <p>As a culinary and cultural pioneer of East meets West cuisine, he’s led the way for a creative, thoughtful, and delicious blending of flavors, temperatures, and textures while trailblazing a path for generations.
                 </p>
               </div>   
             </div>
-            <div className={globalStyles.heroImage}>
+            <div className={indexStyles.heroImage}>
               <Image
                 src="/images/veggies.png"
                 height={576}
@@ -37,57 +37,58 @@ export default function Home() {
               ></Image>
             </div>
           {/* RIGHT SIDE CARD DECK */}
+        <div className={indexStyles.cardDeck}>
         <Eventcards></Eventcards>          
+        </div>  
         </div>
           {/* BOTTOM CARD DECK */}
-          <div className={globalStyles.lowerGrid}>
-            <div className={globalStyles.lowerFlex}>
-                <div className={globalStyles.lowerCard}>
-                  <div className={globalStyles.bPicContainer}>
+          <div className={indexStyles.lowerGrid}>
+            <div className={indexStyles.lowerFlex}>
+                <div className={indexStyles.lowerCard}>
+                  <div className={indexStyles.bPicContainer}>
                     <Image
-                      className={globalStyles.bottomPicOne}
+                      className={indexStyles.bottomPicOne}
                       src="/images/chef.png"
                       height={195}
                       width={176}
                     ></Image>
                   </div>  
-                  <div className={globalStyles.bTextContainer}>
-                    <p className={globalStyles.p}><span className={globalStyles.eventP}>ARTICLES</span> | 8 MIN READ</p>
-                    <h1 className={globalStyles.h1}>CHEF ON A MISSION</h1>
-                    <button className={globalStyles.button}>READ ARTICLE</button>
+                  <div className={indexStyles.bTextContainer}>
+                    <p className={indexStyles.p}><span className={indexStyles.eventP}>ARTICLES</span> | 8 MIN READ</p>
+                    <h1 className={indexStyles.h1}>CHEF ON A MISSION</h1>
+                    <button className={indexStyles.button}>READ ARTICLE</button>
                   </div>            
                 </div>     
-                <div className={globalStyles.lowerCard}>
-                  <div className={globalStyles.bPicContainer}>
+                <div className={indexStyles.lowerCard}>
+                  <div className={indexStyles.bPicContainer}>
                     <Image
-                      className={globalStyles.bottomPicTwo}
+                      className={indexStyles.bottomPicTwo}
                       src="/images/bings.png"
                       height={174}
                       width={164}
                     ></Image>
                   </div>  
-                  <div className={globalStyles.bTextContainer}>
-                  <p className={globalStyles.p}><span className={globalStyles.eventP}>ARTICLES</span> | 3 MIN READ</p>
-                    <h1 className={globalStyles.h1}>LEARN BASIC BING PREP</h1>
-                    <button className={globalStyles.button}>READ ARTICLE</button>
+                  <div className={indexStyles.bTextContainer}>
+                  <p className={indexStyles.p}><span className={indexStyles.eventP}>ARTICLES</span> | 3 MIN READ</p>
+                    <h1 className={indexStyles.h1}>LEARN BASIC BING PREP</h1>
+                    <button className={indexStyles.button}>READ ARTICLE</button>
                   </div>            
                 </div>     
-                <div className={globalStyles.lowerCard}>
-                  <div className={globalStyles.bPicContainer}>
+                <div className={indexStyles.lowerCard}>
+                  <div className={indexStyles.bPicContainer}>
                     <Image
-                      className={globalStyles.bottomPicThree}
+                      className={indexStyles.bottomPicThree}
                       src="/images/knives.png"
                       height={191}
                       width={167}
                     ></Image>
                   </div>  
-                  <div className={globalStyles.bTextContainer}>
-                    <p className={globalStyles.p}><span className={globalStyles.eventP}>ARTICLES</span> | 6 MIN READ</p>
-                    <h1 className={globalStyles.h1}>HIGH QUALITY TRADITION</h1>
-                    <button className={globalStyles.button}>READ ARTICLE</button>
+                  <div className={indexStyles.bTextContainer}>
+                    <p className={indexStyles.p}><span className={indexStyles.eventP}>ARTICLES</span> | 6 MIN READ</p>
+                    <h1 className={indexStyles.h1}>HIGH QUALITY TRADITION</h1>
+                    <button className={indexStyles.button}>READ ARTICLE</button>
                   </div>            
                 </div>     
-
             </div>
           </div>
         </div>

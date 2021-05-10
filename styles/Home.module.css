@@ -33,6 +33,14 @@
 .heroImage {
   margin-left: 2%;
 }
+/* EVENT CARD CONTAINER */
+.cardDeck {
+  display:grid;
+  grid-column-start: 19;
+  grid-column-end:25;
+  margin-left:2%;
+}
+/* LOWER SECTION */
 .lowerGrid {
   display: grid;
   grid-column-start:1;
