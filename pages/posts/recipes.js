@@ -1,6 +1,7 @@
 import Header from '../../components/header'
 import Head from 'next/head'
-
+import Image from 'next/image'
+import recipesStyles from '../../styles/recipesPage.module.css'
 
 export default function recipesPage() {
     return (
@@ -11,6 +12,24 @@ export default function recipesPage() {
                 <link rel="icon" href="/public/images/favicon.ico" />
             </Head>
             <Header></Header>
+            <div className={recipesStyles.container}>
+                <div className={recipesStyles.cardDeck}>
+                    <div className={recipesStyles.card}>
+                        <div className={recipesStyles.recipeImageContainer}>
+                            <Image
+                                src='/images/green.jpg'
+                                height={170}
+                                width={250}
+                            >
+                            </Image>
+                        </div>
+                        <div className={recipesStyles.textContainer}>
+                            <h1 className={recipesStyles.h1}>Thai for Two <br></br>Organic Green Curry</h1>
+                            <button className={recipesStyles.button}>View Recipe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
