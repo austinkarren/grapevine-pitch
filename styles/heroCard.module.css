@@ -1,0 +1,12 @@
+.heroText{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+}
+.heroHeading {
+    font-size: 15px;
+}
+.heroBody {
+    font-size: 23px;
+}

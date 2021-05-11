@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import recipesStyles from '../../styles/recipesPage.module.css'
 
-export default function recipesPage() {
+export default function RecipesPage(props) {
     return (
         <>
             <Head>
@@ -25,9 +25,17 @@ export default function recipesPage() {
                         </div>
                         <div className={recipesStyles.textContainer}>
                             <h1 className={recipesStyles.h1}>Thai for Two <br></br>Organic Green Curry</h1>
-                            <button className={recipesStyles.button}>View Recipe</button>
+                            <button className={recipesStyles.button} onClick={props.handleClick}>View Recipe</button>
                         </div>
                     </div>
+                </div>
+                <div className={recipesStyles.recipeModal}>
+                    <Image
+                        src='/images/recipe.jpg'
+                        height={341}
+                        width={500}
+                    ></Image>
+
                 </div>
             </div>
         </>

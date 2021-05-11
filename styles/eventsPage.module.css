@@ -10,12 +10,5 @@
     grid-column-end:16;
     margin-left:2%;
   }
-  .recipeModal {
-      display: none;
-      grid-column-start: 8;
-      grid-column-end:18;  
-      grid-row-start: 1;
-      height:fit-content;
-}
   
   
