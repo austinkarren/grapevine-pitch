@@ -2,9 +2,8 @@ import Header from '../../components/header'
 import Head from 'next/head'
 import Eventcards from '../../components/eventCards'
 import eventsStyles from '../../styles/eventsPage.module.css'
-
-
-
+import Herocard from "../../components/heroCard"
+import indexStyles from "../../styles/Home.module.css"
 
 export default function eventsPage() {
     return (
@@ -16,8 +15,20 @@ export default function eventsPage() {
             </Head>
             <Header></Header>
             <div className={eventsStyles.container}>
-                <div className={eventsStyles.cardDeck}>
-                    <Eventcards></Eventcards>
+                <div className={indexStyles.mainGrid}>
+                    <div className={indexStyles.mainFlex}>
+                        <Herocard
+                            title="Meet Ming Tsai"
+                            parOne="Get a front row seat to this virtual meeting with world famous chef and restaurateur, Ming Tsai."
+                            imageSource="/images/meetming.jpeg"
+                            imageWidth="710"
+                            imageHeight="473"
+
+                        ></Herocard>
+                        <div className={indexStyles.cardDeck}>
+                            <Eventcards></Eventcards>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

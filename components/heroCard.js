@@ -2,6 +2,11 @@ import Image from 'next/image'
 import heroStyles from "../styles/heroCard.module.css"
 
 export default function Herocard(props) {
+    let buttonText = props.buttonText;
+    if (buttonText === "null") {
+        
+
+    }
     return(
         <>
                 <div className={heroStyles.heroText}>
@@ -11,7 +16,8 @@ export default function Herocard(props) {
                     <div className={heroStyles.heroBody}>
                         <p>{props.parOne} </p>
                         <p>{props.parTwo}</p>
-                    </div>   
+                    </div>
+                    <button>{props.buttonText}</button>
                 </div>
                 <div className={heroStyles.heroImage}>
                     <Image
