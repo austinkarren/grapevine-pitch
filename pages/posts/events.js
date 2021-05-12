@@ -18,11 +18,12 @@ export default function eventsPage() {
                 <div className={indexStyles.mainGrid}>
                     <div className={indexStyles.mainFlex}>
                         <Herocard
-                            title="Meet Ming Tsai"
+                            title="Meet Ming Tsai 🗓️"
                             parOne="Get a front row seat to this virtual meeting with world famous chef and restaurateur, Ming Tsai."
                             imageSource="/images/meetming.jpeg"
                             imageWidth="710"
                             imageHeight="473"
+                            buttonText="Register"
 
                         ></Herocard>
                         <div className={indexStyles.cardDeck}>
