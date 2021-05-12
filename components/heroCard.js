@@ -7,6 +7,7 @@ export default function Herocard(props) {
                 <div className={heroStyles.heroText}>
                     <div className={heroStyles.heroHeading}>
                         <h1>{props.title}</h1>
+                        <h2>{props.titleTwo}</h2>
                         </div>
                     <div className={heroStyles.heroBody}>
                         <p>{props.parOne} </p>

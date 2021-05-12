@@ -19,6 +19,7 @@ export default function eventsPage() {
                     <div className={indexStyles.mainFlex}>
                         <Herocard
                             title="Meet Ming Tsai 🗓️"
+                            titleTwo="MAY 15, 2021 | 5:30 PM CST"
                             parOne="Get a front row seat to this virtual meeting with world famous chef and restaurateur, Ming Tsai."
                             imageSource="/images/meetming.jpeg"
                             imageWidth="710"
