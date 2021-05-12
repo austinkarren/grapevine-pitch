@@ -1,14 +1,13 @@
 .container {
-    display: grid;
-    grid-template-columns: repeat(24, 1fr); 
-    grid-template-rows: repeat(24, 1fr);
-    padding: 44px 90px 44px 90px;
-  }
-  .cardDeck {
-    display:grid;
-    grid-column-start: 10;
-    grid-column-end:16;
-    margin-left:2%;
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(24, 1fr); 
+  grid-template-rows: repeat(24, 1fr);
+  padding: 44px 90px 44px 90px;
+}
+.cardDeck {
+  display:grid;
+  grid-column-start: 10;
+  grid-column-end:16;
+  margin-left:2%;
+}
   

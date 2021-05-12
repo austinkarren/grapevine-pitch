@@ -25,7 +25,6 @@ export default function eventsPage() {
                             imageWidth="710"
                             imageHeight="473"
                             buttonText="Register"
-
                         ></Herocard>
                         <div className={indexStyles.cardDeck}>
                             <Eventcards></Eventcards>
