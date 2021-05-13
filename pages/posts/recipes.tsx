@@ -36,8 +36,7 @@ class RecipesPage extends React.Component {
                             width={500}
                         >
                         </img>
-                    }            
-
+                    }
                     </div>
 
                     <div className={recipesStyles.cardDeck}>

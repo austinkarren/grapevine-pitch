@@ -4,10 +4,10 @@
   grid-template-rows: repeat(24, 1fr);
   padding: 44px 90px 44px 90px;
 }
-.cardDeck {
+/* .cardDeck {
   display:grid;
-  grid-column-start: 10;
-  grid-column-end:16;
+  grid-column-start: 19;
+  grid-column-end:25;
   margin-left:2%;
-}
+} */
   
