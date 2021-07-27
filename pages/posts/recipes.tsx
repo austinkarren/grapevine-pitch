@@ -17,7 +17,6 @@ class RecipesPage extends React.Component {
     }    
 
     render() {
-        const showModal = this.state.showModal;
         return (
             <>
                 <Head>
